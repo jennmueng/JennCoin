@@ -28,3 +28,23 @@ Get the local chain by sending a GET request to
 ```
 http://localhost:3000/bc/getChain
 ```
+
+Add a transaction by sending a POST request with the following data:
+```
+{
+    sender: 'Max',
+    recipient: 'Jenn',
+    amount: '12345678'
+}
+```
+to
+```
+http://localhost:3000/bc/transactions/new
+```
+
+Mine the blockchain with a get request to
+```
+http://localhost:3000/bc/mine
+```
+
+Commands to interacting with other nodes coming soon.
