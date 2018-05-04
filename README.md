@@ -17,19 +17,19 @@ yarn
 
 ## Usage
 
-##### Initialize the instance with
+#### Initialize the instance with
 
 ```
 yarn start
 ```
 
-##### Get the local chain by sending a GET request to
+#### Get the local chain by sending a GET request to
 
 ```
 http://localhost:3000/bc/getChain
 ```
 
-##### Add a transaction by sending a POST request with the following data:
+#### Add a transaction by sending a POST request with the following data:
 ```
 {
     sender: 'Max',
@@ -42,9 +42,9 @@ to
 http://localhost:3000/bc/transactions/new
 ```
 
-##### Mine the blockchain with a get request to
+#### Mine the blockchain with a get request to
 ```
 http://localhost:3000/bc/mine
 ```
 
-##### Commands to interacting with other nodes coming soon.
+#### Commands to interacting with other nodes coming soon.
