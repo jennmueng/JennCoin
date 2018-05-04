@@ -5,16 +5,12 @@
 ## Installation
 Install JennCoin on Nodejs machines with
 ```
-
-git clone 
-
+git clone https://github.com/jennmueng/JennCoin
 ```
 
 ```
-
 cd jenncoin
 yarn
-
 ```
 
 
@@ -24,15 +20,11 @@ yarn
 Initialize the instance with
 
 ```
-
 yarn start
-
 ```
 
 Get the local chain by sending a GET request to
 
 ```
-
 http://localhost:3000/bc/getChain
-
 ```
