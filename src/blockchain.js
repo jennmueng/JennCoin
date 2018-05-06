@@ -1,5 +1,3 @@
-import * as bcrypt from 'bcrypt'
-import * as publicIp from 'public-ip'
 import * as crypto from 'crypto'
 import request from 'request'
 
